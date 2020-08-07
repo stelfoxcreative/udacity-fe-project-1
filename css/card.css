@@ -91,7 +91,7 @@
   border-radius: 50%;
   margin: -72px;
   border: 6px solid rgba(255, 255, 255, 1);
-  height: 144px;
+  max-width: 144px;
 }
 
 .profile__header {
