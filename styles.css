@@ -1,0 +1,100 @@
+@import "css/reset.css";
+@import "css/grid.css";
+@import "css/root.css";
+@import "css/card.css";
+
+/* FONT SCALE */
+/* 12px
+14px
+16px
+18px
+20px
+24px
+30px
+36px
+58px
+60px
+72px */
+
+h1,
+h2,
+h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+
+h2 {
+  font-size: 36px;
+  letter-spacing: -0.08rem;
+  margin-bottom: 8px;
+}
+
+h3 {
+  font-size: 30px;
+  letter-spacing: -0.08rem;
+}
+
+h4 {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+h5 {
+  font-size: 20px;
+  color: var(--cool-grey__500);
+}
+
+p {
+  color: var(--cool-grey__500);
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.btn {
+  font-size: 14px;
+  font-weight: 600;
+  background: var(--light-blue-vivid__900);
+  color: var(--light-blue-vivid__050);
+  text-decoration: none;
+  padding: 8px 16px;
+  align-self: flex-end;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  box-shadow: 0 1px 3px hsla(0, 0%, 0%, 0.2);
+}
+
+.heading__blog {
+  font-size: 58px;
+  color: var(--light-blue-vivid__050);
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+figure {
+  margin: 0 0 48px;
+}
+
+.width__full {
+  grid-column: 1 / -1;
+}
+
+a {
+  color: var(--light-blue-vivid__500);
+  text-decoration: none;
+}
+
+blockquote {
+  margin: 24px 0 48px 0;
+  padding: 24px 48px;
+  border-left: 8px solid var(--light-blue-vivid__500);
+}
+
+blockquote p {
+  font-family: Roboto;
+  font-size: 58px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: 1.1;
+}
