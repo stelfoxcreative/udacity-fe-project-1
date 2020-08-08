@@ -1,7 +1,7 @@
-@import "css/reset.css";
-@import "css/grid.css";
-@import "css/root.css";
-@import "css/card.css";
+@import "./reset.css";
+@import "./grid.css";
+@import "./root.css";
+@import "./card.css";
 
 /* FONT SCALE */
 /* 12px
